@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+
+#title {
+    text-align: center;
+}
+
+.sub{
+    text-align: center;
+    padding: auto;
+    
+}
+
+#a,#b,#c{
+    width:100px;
+    background-color: white;
+}
+
+#eightBall{
+    width:600px;
+    padding:auto;
+}
+
+#doYou{
+    font-size:35px;
+    color:blueviolet;
+}
