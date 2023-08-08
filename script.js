@@ -46,7 +46,7 @@ function textChangeC(){
     }
 
 
-/*This one function relates to "EASY QUESTIONAIRE" heading and contents */
+/*This one function relates to "revealing the answer" heading and contents */
 function revealTime(){
     let answer = document.getElementById("reveal");
     answer.innerText = "Ermmmm.....";
@@ -55,7 +55,7 @@ function revealTime(){
     piccy.innerHTML = `<img src = "https://media4.giphy.com/media/26xBJp4dcSdGxv2Zq/giphy.gif" alt="image showing lucky 8ball" id = "eightBall">`;
 }
 
-/*These 2 functions relate to "Are you Awesome" heading and contents */
+/*These 2 functions relate to "Easy questionaire" heading and contents */
 function youAre(event){
     event.preventDefault();
     let form = event.target;
